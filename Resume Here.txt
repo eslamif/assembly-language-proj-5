@@ -1,0 +1,42 @@
+;Title: 
+;Description: 
+;Receives: 
+;Returns: 
+;Precondition: 
+;Registers changed: 
+
+
+;NumsToGen
+@ promptUser	EBP+16
+@ invalidInt	EBP+12
+@ userGenInput	EBP+8
+ret @		EBP+4
+ebp		EBP
+
+;GenRandNums
+@ range		EBP+20
+userGenInput	EBP+16
+@ randArr	EBP+12
+@ randArrSize	EBP+8
+ret @		EBP+4
+ebp		EBP
+
+;Display array
+@ arrTitle	EBP+16
+@ randArr	EBP+12
+randArrSize	EBP+8
+ret @		EBP+4
+ebp		EBP
+
+;Sort
+@ randArr	EBP+12
+randArrSize	EBP+8
+ret @		EBP+4
+ebp		EBP
+
+;Median
+@ medianMess	EBP+16
+@ randArr	EBP+12
+randArrSize	EBP+8
+ret @		EBP+4
+ebp		EBP
